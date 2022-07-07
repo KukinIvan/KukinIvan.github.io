@@ -6,8 +6,8 @@
 body, html {
   margin: 0;
   background: #eee;
-  font-family: "Ubuntu", "微軟正黑體", sans-serif;
-  letter-spacing: 0.65px;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.1px;
   font-size: 15px;
   color: #555;
   cursor: default;
@@ -45,7 +45,7 @@ h3 {
   content: "";
   width: 100%;
   height: 6px;
-  background: #8d9e78;
+  background: #700808;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -154,14 +154,14 @@ h3 {
 }
 .resume .base .follow .box i {
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   background: #700808;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  line-height: 60px;
+  line-height: 45px;
   color: #fcfcfc;
-  margin: 0 10px 10px 10px;
+  margin: 0 5px 5px 5px;
   transition-duration: 0.3s;
 }
 .resume .base .follow .box i::before {
@@ -309,45 +309,7 @@ h3 {
   box-shadow: 0 0 0 #700808;
   border-radius: 5px;
 }
-.resume .func .skills-soft ul {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-.resume .func .skills-soft ul li {
-  position: relative;
-}
-.resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #e07a5f;
-  stroke-width: 4px;
-}
-.resume .func .skills-soft ul li:hover span, .resume .func .skills-soft ul li:hover small {
-  transform: scale(1.2);
-}
-.resume .func .skills-soft ul li svg {
-  width: 95%;
-  fill: transparent;
-  transform: rotate(-90deg);
-}
-.resume .func .skills-soft ul li svg circle {
-  stroke-width: 1px;
-  stroke: #cdcdcd;
-}
-.resume .func .skills-soft ul li svg .cbar {
-  stroke-width: 3px;
-  stroke: #700808;
-  stroke-linecap: round;
-}
-.resume .func .skills-soft ul li span, .resume .func .skills-soft ul li small {
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 52%;
-  transition-duration: 0.3s;
-}
-.resume .func .skills-soft ul li span {
-  top: 40%;
-}
+
 .resume .func .interests-items {
   box-sizing: border-box;
   padding: 15px;
@@ -377,11 +339,11 @@ h3 {
   color: #700808;
   transition-duration: 0.3s;
 }
-.resume .func .interests-items div i.guitar {
+.resume .func .interests-items div i.hobby {
   display: block;
   margin: 0 auto;
 }
-.resume .func .interests-items div i.guitar svg {
+.resume .func .interests-items div i.hobby svg {
   width: 50px;
   height: 50px;
   margin-top: 5px;
