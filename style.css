@@ -309,45 +309,7 @@ h3 {
   box-shadow: 0 0 0 #700808;
   border-radius: 5px;
 }
-.resume .func .skills-soft ul {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-.resume .func .skills-soft ul li {
-  position: relative;
-}
-.resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #e07a5f;
-  stroke-width: 4px;
-}
-.resume .func .skills-soft ul li:hover span, .resume .func .skills-soft ul li:hover small {
-  transform: scale(1.2);
-}
-.resume .func .skills-soft ul li svg {
-  width: 95%;
-  fill: transparent;
-  transform: rotate(-90deg);
-}
-.resume .func .skills-soft ul li svg circle {
-  stroke-width: 1px;
-  stroke: #cdcdcd;
-}
-.resume .func .skills-soft ul li svg .cbar {
-  stroke-width: 3px;
-  stroke: #700808;
-  stroke-linecap: round;
-}
-.resume .func .skills-soft ul li span, .resume .func .skills-soft ul li small {
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 52%;
-  transition-duration: 0.3s;
-}
-.resume .func .skills-soft ul li span {
-  top: 40%;
-}
+
 .resume .func .interests-items {
   box-sizing: border-box;
   padding: 15px;
