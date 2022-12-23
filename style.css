@@ -209,6 +209,10 @@ h3 {
 .resume .func .work small, .resume .func .edu small {
   display: block;
   opacity: 0.7;
+} 
+.resume .func .work a:hover, .resume .func .edu a:hover {
+    color: #CE242B; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
 }
 .resume .func .work ul li, .resume .func .edu ul li {
   position: relative;
@@ -219,7 +223,7 @@ h3 {
 .resume .func .work ul li:hover::before, .resume .func .edu ul li:hover::before {
   animation: circle 1.2s infinite;
 }
-.resume .func .work ul li:hover span, .resume .func .edu ul li:hover span {
+.resume .func .work ul li:hover span, .resume .func .edu ul li:hover span { 
   color: #e07a5f;
 }
 @keyframes circle {
